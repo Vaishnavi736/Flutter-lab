@@ -1,0 +1,174 @@
+Sure! Here are basic and most commonly asked Flutter viva questions, perfect for labs, mini-projects, and practical exams.
+I’ll keep them simple and easy to remember.
+
+
+---
+
+✅ Basic Flutter Viva Questions
+
+1. What is Flutter?
+
+A UI framework by Google used to build mobile, web, and desktop apps from a single codebase.
+
+
+---
+
+2. What is a Widget in Flutter?
+
+Everything in Flutter is a widget. Widgets describe the UI — like text, buttons, layout, etc.
+
+
+---
+
+3. Difference between StatelessWidget and StatefulWidget.
+
+StatelessWidget → UI does NOT change.
+
+StatefulWidget → UI updates dynamically using setState().
+
+
+
+---
+
+4. What is setState() used for?
+
+To update values in the state and rebuild the UI.
+
+
+---
+
+5. What is MaterialApp?
+
+A widget that wraps your app with Material Design features like themes, navigation, and routes.
+
+
+---
+
+6. What is Scaffold?
+
+Provides basic app structure: AppBar, body, drawer, floating buttons, etc.
+
+
+---
+
+7. What is MediaQuery?
+
+Used to get device information like screen size, orientation — helpful for responsive design.
+
+
+---
+
+8. What are Layout widgets?
+
+Widgets used to arrange UI:
+
+Row
+
+Column
+
+Container
+
+SizedBox
+
+Center
+
+Stack
+
+Expanded
+
+
+
+---
+
+9. What is hot reload?
+
+A feature that updates the app instantly without restarting it.
+
+
+---
+
+10. What is AppBar?
+
+A toolbar that appears at the top of the screen.
+
+
+---
+
+11. What is Navigator?
+
+Used to move between screens (pages).
+
+
+---
+
+12. What is the use of main() function in Flutter?
+
+The entry point of the Flutter app; it calls runApp().
+
+
+---
+
+13. Why do we use runApp()?
+
+It loads your root widget into the screen.
+
+
+---
+
+14. What is build() method?
+
+It describes how the UI should look based on the current state.
+
+
+---
+
+15. What is a breakpoint?
+
+A screen width value used to decide layout for responsive UI (like mobile vs desktop).
+
+
+---
+
+16. How to add an image in Flutter?
+
+Place in assets/, then declare in pubspec.yaml, then use:
+
+Image.asset('assets/images/bg.jpg')
+
+
+---
+
+17. What is Container widget?
+
+A box model widget used for styling (padding, margin, width, height, color).
+
+
+---
+
+18. What is the difference between padding and margin?
+
+Padding → space inside the widget
+
+Margin → space outside the widget
+
+
+
+---
+
+19. What is ListView?
+
+A scrollable list of widgets.
+
+
+---
+
+20. What is the purpose of the @override keyword?
+
+Used when you replace a parent class method with your own implementation.
+
+
+---
+
+⭐ Want deeper (medium-level) questions also?
+
+I can give 20 more for complete preparation.
