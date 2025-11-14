@@ -1,0 +1,164 @@
+General & Basic Questions
+
+1. What is Flutter?
+
+Flutter is an open-source UI toolkit by Google used to build cross-platform apps from 
+
+a single codebase.
+
+2. Which programming language is used in Flutter?
+
+Flutter uses the Dart programming language.
+
+3. What is Dart?
+
+Dart is an object-oriented, class-based language optimized for UI development with 
+
+features like hot reload and AOT compilation.
+
+4. What are Widgets in Flutter?
+
+Widgets are the building blocks of a Flutter app’s UI. Everything in Flutter (text, 
+
+image, layout, etc.) is a widget.
+
+5. Differentiate between Stateless and Stateful widgets.
+
+Stateless widgets are immutable (don’t change once built).
+
+Stateful widgets can change dynamically when user interaction or data changes occur.
+
+6. What is the main() function in Dart?
+
+It is the entry point of every Dart program where execution begins.
+
+7. What is Hot Reload in Flutter?
+
+Hot Reload allows developers to instantly see code changes in the emulator without 
+
+restarting the entire app.
+
+8. What is MaterialApp in Flutter?
+
+It is a predefined class that wraps several widgets implementing Material Design 
+
+principles for UI.
+
+9. What is Scaffold?
+
+Scaffold provides a basic structure for a visual interface — including AppBar, Body, 
+
+Drawer, and FloatingActionButton.
+
+10. What is AppBar in Flutter?
+
+AppBar is a Material Design widget that provides a toolbar with title, icons, and 
+
+actions.
+
+Widgets & Layout
+
+11. Name some basic Flutter widgets.
+
+Text, Image, Container, Icon, Column, Row, Stack, Card, ListView, etc.
+
+12. What is the purpose of Row and Column widgets?
+
+Row arranges children horizontally, and Column arranges them vertically.
+
+13. What is Stack used for?
+
+Stack allows widgets to be placed on top of each other (like overlapping layers).
+
+14. How do you add images in a Flutter project?
+
+Create an assets/images folder add the image declare the path under assets: in 
+
+pubspec.yaml.
+
+15. What is Container in Flutter?
+
+A widget used for layout, styling, padding, margin, color, and decoration of child 
+
+widgets.
+Navigation & Responsiveness
+
+16. What is navigation in Flutter?
+
+It allows switching between different screens (routes) in an app using Navigator.
+
+17. What are named routes?
+
+Named routes define a map of route names and corresponding widgets for easier 
+
+navigation.
+
+18. How do you make a Flutter app responsive?
+
+Use MediaQuery and layout builders with width-based breakpoints to adapt UI to 
+
+various screen sizes.
+
+19. What are MediaQuery and Breakpoints?
+
+MediaQuery provides screen size info.
+
+Breakpoints define width thresholds for responsive design.
+
+20. What are the types of navigation in Flutter?
+
+Basic navigation using Navigator.push() and named route navigation using 
+
+Navigator.pushNamed().
+
+State Management & Customization
+
+21. What is setState()?
+
+setState() updates the state of a StatefulWidget and rebuilds the UI with new data.
+
+22. What is the Provider package used for?
+
+Provider is used for efficient state management across multiple widgets.
+
+23. What are custom widgets?
+
+User-defined widgets created for code reuse and modular design.
+
+24. What is a Theme in Flutter?
+
+A theme defines the overall styling of an app like colors, text styles, and icon themes.
+
+25. How do you apply custom styles using ThemeData?
+
+Define a ThemeData object in MaterialApp’s theme: property and apply consistent 
+
+styles throughout the app.
+
+Forms, Animations, and APIs
+
+26. What is form validation in Flutter?
+
+It ensures that user inputs are valid using Form, TextFormField, and validation 
+
+functions.
+
+27. What is an AnimationController?
+
+A controller that manages the timing and state of an animation in Flutter.
+
+28. Name two types of animations you used.
+
+Fade animation (AnimatedOpacity) and Slide animation (SlideTransition).
+
+29. How do you fetch data from a REST API?
+
+Using the http package to make GET/POST requests and FutureBuilder to display 
+
+fetched data.
+
+30. How can you debug a Flutter app?
+
+Using tools like Hot Reload, Flutter Inspector, Debug Console, Breakpoints, and 
+
+DevTools for performance analysis.
